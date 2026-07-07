@@ -1,0 +1,92 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(135deg, #061a40, #0b4f8a);
+  color: white;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 100px 20px;
+  background: rgba(0, 0, 50, 0.4);
+}
+
+.header h1 {
+  font-size: 80px;
+  color: #4db8ff;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* CARDS */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  text-decoration: none;
+  color: white;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(77,184,255,0.5);
+  padding: 20px;
+  width: 220px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  background: rgba(77,184,255,0.2);
+}
+
+.card h3 {
+  color: #4db8ff;
+}
+
+/* MUSIC PAGES */
+.music-page {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.music-page h2 {
+  font-size: 32px;
+  color: #80d4ff;
+  margin-bottom: 20px;
+}
+
+.music-page img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #4db8ff;
+}
+
+.music-page p {
+  margin-top: 15px;
+  color: #cce6ff;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: rgba(0, 0, 50, 0.4);
+}
